@@ -27,3 +27,24 @@ a {
   width: 900px;
   margin: 0 auto;
 }
+
+@media (max-width: 900px) {
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+}
+
+#inscription {
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+  }
+}
